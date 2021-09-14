@@ -9,15 +9,15 @@
 
 Solution: 
 
-https://github.com/Chralt98/exercise-1-and-2/transfer_initiated.png
+https://github.com/Chralt98/exercise-1-and-2/blob/master/transfer_initiated.png
 
-https://github.com/Chralt98/exercise-1-and-2/transfer_complete.png
+https://github.com/Chralt98/exercise-1-and-2/blob/master/transfer_complete.png
 
-https://github.com/Chralt98/exercise-1-and-2/pallets/template/Cargo.toml
+https://github.com/Chralt98/exercise-1-and-2/blob/master/pallets/template/Cargo.toml
 
-https://github.com/Chralt98/exercise-1-and-2/runtime/Cargo.toml
+https://github.com/Chralt98/exercise-1-and-2/blob/master/runtime/Cargo.toml
 
-https://github.com/Chralt98/exercise-1-and-2/node/Cargo.toml
+https://github.com/Chralt98/exercise-1-and-2/blob/master/node/Cargo.toml
 
 ---
 

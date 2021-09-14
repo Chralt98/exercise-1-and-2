@@ -7,6 +7,13 @@
 3. Update author in Cargo.toml file
 4. Run a single node testnet and send a transaction
 
+Solution: 
+https://github.com/Chralt98/exercise-1-and-2/transfer_initiated.png
+https://github.com/Chralt98/exercise-1-and-2/transfer_complete.png
+https://github.com/Chralt98/exercise-1-and-2/pallets/template/Cargo.toml
+https://github.com/Chralt98/exercise-1-and-2/runtime/Cargo.toml
+https://github.com/Chralt98/exercise-1-and-2/node/Cargo.toml
+
 ---
 
 ## Exercise Two

@@ -30,6 +30,10 @@ https://github.com/Chralt98/exercise-1-and-2/blob/master/node/Cargo.toml
     - A user can have zero or more kitties
     - Users can create kitties
 
+Solution: 
+
+https://github.com/Chralt98/exercise-1-and-2/blob/master/submission/exercise2.md
+
 ---
 
 # Substrate Node Template

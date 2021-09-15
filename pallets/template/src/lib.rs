@@ -4,6 +4,16 @@
 /// Learn more about FRAME and the core library of Substrate FRAME pallets:
 /// <https://substrate.dev/docs/en/knowledgebase/runtime/frame>
 
+/* 
+Exercise 2:
+
+1. Design kitties pallet
+2. Requirements:
+- Kitty must have a 128 bit DNA, which is randomly generated
+- Kitty must have one owner
+- A user can have zero or more kitties
+- Users can create kitties
+*/
 pub use pallet::*;
 
 #[cfg(test)]

@@ -4,7 +4,9 @@
 2. Requirements:
     
     a. Kitty must have a 128 bit DNA, which is randomly generated
+
     b. Kitty must have one owner
+    
     c. A user can have zero or more kitties
  
 # pallet-kitties

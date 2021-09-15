@@ -11,14 +11,17 @@
 
 Calls:
 - fn create_kitty
+
 Types:
 - struct Kitty
     - owner: AccountId
     - price: Balance
     - dna: Hash
+
 Storages:
 - KittyOfOwner: double_map AccountId, u32 => Option<Kitty>
 - NextKittyId: u32
+
 Events:
 - KittyCreated
     - owner: AccountId

@@ -6,10 +6,14 @@
     a. Kitty must have a 128 bit DNA, which is randomly generated
 
     b. Kitty must have one owner
-    
+
     c. A user can have zero or more kitties
  
-# pallet-kitties
+### pallet-kitties
+
+Config:
+- Event: From<Event<Self>> + IsType<<Self as frame_system::Config>::Event>
+- KittyRandomness: Randomness<H128, Self::BlockNumber>
 
 Calls:
 - fn create_kitty
@@ -17,16 +21,20 @@ Calls:
 Types:
 - struct Kitty
     - owner: AccountId
-    - price: Balance
+    - id: u64
     - dna: Hash
 
 Storages:
-- KittyOfOwner: double_map AccountId, u32 => Option<Kitty>
-- NextKittyId: u32
+- MapOwnerWithIndexToKitty: StorageMap (AccountId, u64) => Optional<Kitty>
+- NextKittyId: u64
 
 Events:
 - KittyCreated
+    - kitty_id: u64
     - owner: AccountId
-    - kitty_id: u32
     - kitty: Kitty
-    
+
+Implementations:
+- GetRandomHash: AccountId => Hash
+
+Additional comments or pseudo code: -
